@@ -1,3 +1,4 @@
+package edu.joas.segundasemana;
 public class MinhaClasse {
 
 public static void main (String[] argus) {

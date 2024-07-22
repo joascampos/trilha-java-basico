@@ -1,9 +1,10 @@
+package edu.joas.primeirasemana;
 public class BoletimEstudantil {
     public static void main(String[] args) {
         int mediaFinal = 7;
-        if (mediaFinal < 6)
+        if (mediaFinal < 6) // condição se nota for abaixo da média
             System.out.println("REPROVADO");
-        else if (mediaFinal == 6)
+        else if (mediaFinal == 6) // condição se tiver na média
             System.out.println("PROVA MINERVA");
         else
             System.out.println("APROVADO");
